@@ -2,7 +2,7 @@ name: Sync fork with upstream
 
 on:
   schedule:
-    - cron: '0 2 * * 1'  # tous les lundis à 2h du matin UTC
+    - cron: '0 9 * * 1'  # tous les lundis à 2h du matin UTC
   workflow_dispatch:  # permet aussi de déclencher manuellement
 
 jobs:
